@@ -7,6 +7,10 @@ import acquire
 
 ########## TELCO DATA ###########
 def clean_telco_data(df):
+    '''This function cleans the data from the original dataset by dropping nulls and unnnecesary
+    columns, changes columns to the data type that makes sense (ie. total_charges to float), and
+    coverts categorical columns with one-hot encoding to allow for input into models.
+    '''
     # replace empty cells with nulls
     df = df.replace(' ', np.nan)
     # drop 11 nulls from total_charges
@@ -34,6 +38,8 @@ def clean_telco_data(df):
 
 
 def split_telco_data(df):
+    ''' This function splits the cleaned dataframe into train, validate, and test 
+    datasets and statrifies based on the target, churn.'''
 
     train_validate, test = train_test_split(df, test_size=.2, 
                                         random_state=123, 
