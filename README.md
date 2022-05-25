@@ -79,17 +79,15 @@ Github repo with the following:
 **Execuitve Summary**
 - Key Findings: Drivers of churn are family types, payment type, fiber optic internet, and add-on services.
 
-- Multiple models were created, fit, and evaluated. 
-    - Logistic Regression was chosen as the best model as its accuracy was above baseline and the recall rate was the highest of all the other models. This model performed at 75% accuracy with a recall rate of 79% on the positive case.
 
 - Recommendations: 
-- Offer senior citizen discounts
-- strategize marketing to younger families
-- discourage use of electronic checks (incenvtivize other payment options)
-- offer discounts for bundled add-on services with Fiber Optic internet.
+    - Offer senior citizen discounts
+    - strategize marketing to younger families
+    - discourage use of electronic checks (incenvtivize other payment options)
+    - offer discounts for bundled add-on services with Fiber Optic internet.
 
-- Next Steps: Additional evaluation on fiber optic internet.
-
+- Multiple models were created, fit, and evaluated. 
+    - Logistic Regression was chosen as the best model as its accuracy was above baseline and the recall rate was the highest of all the other models. This model performed at 75% accuracy with a recall rate of 79% on the positive case.
 
 
 **Plan**
