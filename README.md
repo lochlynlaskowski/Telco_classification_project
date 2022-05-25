@@ -76,20 +76,31 @@ Github repo with the following:
 - Live Presentation
 
 
-
-**Data Dictionary**
-
-
 **Execuitve Summary**
+- Key Findings: Drivers of churn are family types, payment type, fiber optic internet, and add-on services.
+
+- Multiple models were created, fit, and evaluated. 
+    - Logistic Regression was chosen as the best model as its accuracy was above baseline and the recall rate was the highest of all the other models. This model performed at 75% accuracy with a recall rate of 79% on the positive case.
+
+- Recommendations: 
+- Offer senior citizen discounts
+- strategize marketing to younger families
+- discourage use of electronic checks (incenvtivize other payment options)
+- offer discounts for bundled add-on services with Fiber Optic internet.
+
+- Next Steps: Additional evaluation on fiber optic internet.
+
+
 
 **Plan**
  - Questions to answer:
-     - Does contract type matter?
-     - Do those that churn pay more?
-     - Does family type matter?
-     - Does payment type matter?
-     - Do phone services affect churn? Internet services?
-     - Do add-on services affect churn?
+    - Does contract type matter?
+    - Do those that churn pay more?
+    - Does family type drive churn rates?
+        -Explore gender, senior citizens, customers with dependents and partners.
+    - Does payment type matter?
+    - Does phone type or internet type lead to churn?
+    - How do add-on services affect churn?
 
 **Acquire**
 - utlize acquire.get_telco_data() to gain acces to the telco dataset.
@@ -108,8 +119,8 @@ Github repo with the following:
 
 
 **Project Reproduction**
-In order to reproduce this project you will need your own .env file with Codeup database credentials, as well as:
-jupyter notebook
-acquire.py
-prepare.py
-Classification Project - Final.ipynb
+- In order to reproduce this project you will need your own .env file with Codeup database credentials, as well as:
+   - jupyter notebook
+   - acquire.py
+   - prepare.py
+   - Classification Project - Final.ipynb
